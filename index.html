@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Portfolio | Data Analytics & Operations Leadership</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            max-width: 900px;
+            margin: 4rem auto 2rem;
+            padding: 0 2rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            color: var(--accent);
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 1.5rem;
+            border: 1px solid #334155;
+        }
+        .card h3 {
+            margin-top: 0;
+            color: var(--text-primary);
+        }
+        .tags {
+            font-size: 0.85rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jamal Bussey</h1>
+        <div class="subtitle">Operations Leader transitioning into Data Analytics & Programming</div>
+        <p>Combining cross-functional team leadership with rigorous technical training in Python, data visualization, and systems analysis.</p>
+    </header>
+
+    <main>
+        <h2>Featured Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Aircraft Dataset Analysis & Visualization</h3>
+                <div class="tags">Python • Pandas • Seaborn • Matplotlib</div>
+                <p>Performed multi-panel exploratory data analysis on flight performance metrics incorporating US Standard Atmosphere modeling.</p>
+                <a href="#">View Code &rarr;</a>
+            </div>
+            <div class="card">
+                <h3>Interactive Data Visualizations</h3>
+                <div class="tags">JavaScript • p5.js • HTML5 Canvas</div>
+                <p>Developed dynamic, object-oriented visual programs and interactive pattern generators for structured data display.</p>
+                <a href="#">View Live Demo &rarr;</a>
+            </div>
+            <div class="card">
+                <h3>Network Configuration & IT Labs</h3>
+                <div class="tags">Networking • Security • Systems Admin</div>
+                <p>Executed rigorous SOHO network setups, proxy server configurations, and wireless network security hardening protocols.</p>
+                <a href="#">View Documentation &rarr;</a>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
